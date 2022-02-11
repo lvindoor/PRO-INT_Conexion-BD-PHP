@@ -1,0 +1,149 @@
+/* TYPOGRAFIAS */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Righteous&family=Rubik+Beastly&display=swap');
+
+/* GENERAL */
+
+body {
+    background: #05073d;
+    font-family: "Roboto", sans-serif;    
+}
+
+/* MENU */
+
+.nav {
+    position: fixed;
+}
+
+.nav ul, .nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    background: gray;
+    list-style: none;
+}
+
+.nav li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.nav a {
+    background: #f8d547;
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav li:hover a {
+    background: #ecab0f;
+}
+
+/* TABLA */
+
+table {
+    margin: auto;
+}
+
+th {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    background-color: #ad372d;
+    color: white;  
+    padding: 5px 25px;
+}
+
+td {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 25px;
+}
+
+.table {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+/* FORMULARIO */
+
+form {
+    background: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background: #f2f2f2;
+    width: 70%;
+    margin: 5px;
+    padding: 15px;
+    border: 0px;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: #ad372d;
+    width: 70%;
+    margin: 10px;
+    padding: 15px;    
+    font-size: 14px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.titulo {
+    font-family: 'Righteous', cursive;
+}
+
+.titulo h2 {
+    margin-top: -30px;
+}
+
+.contacto {
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    transform: translate(0, 40%);
+}
+
+.mensaje {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.genero {
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.genero p {
+    color: black;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#contacto {
+    width: 20px;
+    margin: 0px;
+}
+
+#hombre, #mujer {
+    width: 15px;
+}
